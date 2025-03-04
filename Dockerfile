@@ -18,4 +18,4 @@ ADD . /app
 # Sync the project
 RUN uv sync --frozen
 
-CMD [ "python", "domaner/foo.py"]
+CMD [ "python", "domain_oracle/main.py"]
