@@ -1,0 +1,13 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {},
+
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {
+            "version": "latest",
+            "moby": false
+        }
+    },
+    "containerEnv": {},
+    "postCreateCommand": "/bin/bash -e ./.devcontainer/setup.sh > postCreateCommand.log"
+}
